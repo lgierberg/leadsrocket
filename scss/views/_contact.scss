@@ -1,0 +1,25 @@
+form#contactForm{
+    border: 1px solid #c3c4c7;
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.25);
+}
+
+.contactHeader{
+    display: flex;
+    flex-direction: row;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.25);
+    div:first-child{
+        background-image: url('/img/letstalk.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 150px;
+        height: auto;
+        transform: scale(1.5);
+    }
+}
+

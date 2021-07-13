@@ -1,0 +1,90 @@
+.footer {
+  img {
+    width: 22%;
+    padding-left: 60px;
+  }
+}
+
+.footer {
+  div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 100px;
+  }
+}
+
+.footer {
+  div {
+    a {
+      img {
+        width: 45px;
+        padding: 0 3px;
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+      }
+    }
+  }
+}
+
+.footer {
+  div {
+    a {
+      img:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+      }
+    }
+  }
+}
+
+.footer {
+  div {
+    a:first-child {
+      color: #fff;
+      padding-right: 20px;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer {
+  div {
+    a:hover {
+      color: $color_primary;
+      background-color: $color_primary;
+      -webkit-transform: scale(1.02);
+      transform: scale(1.02);
+      -webkit-transition: 0.2s ease;
+      transition: 0.2s ease;
+    }
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: $color_primary;
+}
+/*div.footer > div > a:nth-child(1)*/
+div.footer {
+  div{
+    a:first-child:hover{
+      color: yellow;
+    }
+  }
+}

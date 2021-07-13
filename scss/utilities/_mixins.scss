@@ -1,0 +1,21 @@
+@mixin font($font-style, $font-weight, $font-size, $line-height, $font-family){
+    font: $font-style $font-weight $font-size/$line-height $font-family;
+}
+
+@mixin flex($display, $flex-direction, $justify-content, $align-content, $flex-wrap, $align-items){
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-content: $align-content;
+    flex-wrap: $flex-wrap;
+    align-items: $align-items;
+}
+
+@each $user in user1, user2, user3 {
+	.#{$user}{
+		background-image: url('/img/#{$user}.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+	}
+}

@@ -1,0 +1,14 @@
+section.privacyPolices, section.useOfPersonalData, section.Cookies, section.useOfData{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    padding: 30px;
+    div{
+        flex-basis: 60%;
+    }
+
+  }
+
+section.privacyPolices {
+    margin-top: 60px;
+}
