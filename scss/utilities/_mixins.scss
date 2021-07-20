@@ -13,7 +13,7 @@
 
 @each $user in user1, user2, user3 {
 	.#{$user}{
-		background-image: url('/img/#{$user}.png');
+		background-image: url('/leadsrocket/img/#{$user}.png');
     width: 200px;
     height: 200px;
     background-size: cover;
