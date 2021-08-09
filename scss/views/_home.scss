@@ -7,7 +7,7 @@ body {
 
 .mainContent {
     @include flex(flex, row, space-evenly, center, nowrap, center);
-    background-image: url("../leadsrocket/img/Background.svg");
+    background-image: url("/leadsrocket/img/Background.svg");
     background-color: $color_primary;
     height: 580px;
     padding: 0 40px;
@@ -15,7 +15,7 @@ body {
   }
 
   .joinMail {
-    background-image: url("../leadsrocket/img/Background-footer.svg");
+    background-image: url("/leadsrocket/img/Background-footer.svg");
     background-color: #13072c !important;
     background-size: cover;
   }
@@ -29,7 +29,7 @@ body {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    background-image: url("../leadsrocket/img/Background.svg");
+    background-image: url("/leadsrocket/img/Background.svg");
     background-color: #3e0bac;
     height: 580px;
     -webkit-box-align: center;

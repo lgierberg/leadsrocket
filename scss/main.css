@@ -393,7 +393,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../leadsrocket/img/Background.svg");
+  background-image: url("/leadsrocket/img/Background.svg");
   background-color: #5A20D8;
   height: 580px;
   padding: 0 40px;
@@ -401,7 +401,7 @@ body {
 }
 
 .joinMail {
-  background-image: url("../leadsrocket/img/Background-footer.svg");
+  background-image: url("/leadsrocket/img/Background-footer.svg");
   background-color: #13072c !important;
   background-size: cover;
 }
@@ -415,7 +415,7 @@ div.contactContent {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  background-image: url("../leadsrocket/img/Background.svg");
+  background-image: url("/leadsrocket/img/Background.svg");
   background-color: #3e0bac;
   height: 580px;
   -webkit-box-align: center;
