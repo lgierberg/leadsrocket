@@ -416,6 +416,7 @@ div.contactContent {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   background-image: url("/leadsrocket/img/Background.svg");
+  background-size: cover;
   background-color: #3e0bac;
   height: 580px;
   -webkit-box-align: center;
